@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QATestSuite">
+    <test name="QATest">
+        <classes>
+<!--            <class name="src/main/java/org/qa/bdd/utility/setUp/TestRunner.java"/>-->
+            <class name="TestRunner.java"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->,
