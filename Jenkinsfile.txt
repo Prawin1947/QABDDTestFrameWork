@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo '##############################################################################'
+                echo 'Building QABDDTestFrameWork'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing QABDDTestFrameWork'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying QABDDTestFrameWork'
+            }
+        }
+    }
+}
